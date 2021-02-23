@@ -163,36 +163,36 @@ tr, td {
 /* Media Queries */
 /* Extra small devices (phones, 600px and down) */
 /* This applies css to mobile phones */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .daily-section {
     background-color: tomato;
   }
-}
+} */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   .daily-section {
-    background-color:olive;
-  }
+    background-color:olive; */
+  /* }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .daily-section {
     background-color: lavender;
   }
-}
+} */
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
   .daily-section {
     background-color: pink;
   }
-}
+} */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   .daily-section {
     background-color: beige;
   }
-}
+} */
