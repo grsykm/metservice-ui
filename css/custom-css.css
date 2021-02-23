@@ -1,0 +1,198 @@
+/* All custom CSS */
+div {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mobile-container {
+  height: 100vh;
+}
+
+/* Mobile Nav Section */
+.mobile-nav {
+  background-color: #ffffff;
+  height: 4vh;
+}
+
+.burger-menu,
+.logo,
+.search {
+  height: 100%;
+  display: inline-block;
+}
+
+.burger-menu {
+  width: 20%;
+}
+
+.fa-bars {
+  font-size: 30px;
+  position: absolute;
+  top: 8px;
+  left: 15px;
+}
+
+.logo img {
+  position: relative;
+  height: 30px;
+  width: 150px;
+  margin-left: 30px;
+  margin-right: 35px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.search {
+  width: 20%;
+}
+
+.fa-search {
+  font-size: 25px;
+  position: absolute;
+  top: 8px;
+  right: 15px;
+}
+
+/* Mobile Nav ENDS */
+/* Daily Section */
+.daily-section {
+  background-color: #1d4b87;
+  height: 120px;
+  height: 30vh;
+}
+
+.current-city {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  margin-left: 50px;
+  padding-left: 20px;
+  padding-top: 18px;
+}
+
+.weather-image,
+.weather-info {
+  height: 82%;
+  float: left;
+  width: 49.4%
+}
+
+.wi-day-cloudy-windy {
+  color: #ffffff;
+  font-size: 70px;
+  position: relative;
+  top: 70px;
+  left: 30px;
+}
+
+/* Daily Section ENDS */
+/* Map Section */
+.map-section {
+  background-color: #407bb5;
+  height: 25vh;
+  margin: 8px;
+}
+
+.map {
+  background-color: #407bb5;
+  height: 124.5px;
+}
+
+.map-title,
+.expand {
+  background-color: #407bb5;
+  height: 22%;
+  float: left;
+  width: 79%;
+}
+
+.map-title {
+  bottom: 0;
+  left: 0;
+  width: 80%
+}
+
+.expand {
+  width: 18.8%;
+  bottom: 0;
+  right: 0;
+}
+
+/* Map Section ENDS */
+/* Favourite Section */
+.favourite-section {
+  font-weight: bold;
+  border: 1px solid #1d4b87;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #ffffff;
+  height: 22vh;
+  top: 120px;
+  left: 10px;
+}
+
+tr, td {
+  padding: 15px;
+}
+
+/* Favourite Section ENDS */
+/* Footer Section */
+.footer-section {
+  background-color: #1d4b87;
+  height: 15.8vh;
+}
+
+.left-section {
+  background-color: #1d4b87;
+  height: 30px;
+}
+
+.middle-section {
+  background-color: #1d4b87;
+  height: 30px;
+}
+
+.right-section {
+  background-color: #1d4b87;
+  height: 30px;
+}
+
+/* Footer Section ENDS */
+/* Media Queries */
+/* Extra small devices (phones, 600px and down) */
+/* This applies css to mobile phones */
+@media only screen and (max-width: 600px) {
+  .daily-section {
+    background-color: tomato;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .daily-section {
+    background-color:olive;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .daily-section {
+    background-color: lavender;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .daily-section {
+    background-color: pink;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .daily-section {
+    background-color: beige;
+  }
+}
